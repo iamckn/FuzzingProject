@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/about.png</file>
+        <file>img/new.png</file>
+        <file>img/open.png</file>
+        <file>img/save.png</file>
+        <file>img/search.png</file>
+        <file>img/close.png</file>
+        <file>img/exit.png</file>
+        <file>img/find.png</file>
+        <file>img/jianqie.png</file>
+        <file>img/paste.png</file>
+        <file>img/return.png</file>
+        <file>img1/duan.png</file>
+        <file>img1/ExplorerEntry.ico</file>
+        <file>img1/folder.png</file>
+        <file>img1/L3.png</file>
+        <file>img1/Loading.gif</file>
+        <file>img1/loadingSina.gif</file>
+        <file>img1/logo.png</file>
+        <file>img1/logo1.png</file>
+        <file>img1/lunbo.default_1.png</file>
+        <file>img1/pic.png</file>
+        <file>img1/pic1.png</file>
+        <file>img1/pica.png</file>
+        <file>img1/srv_lunbotu2.png</file>
+        <file>img1/srv_lunbotu2_1.png</file>
+        <file>img1/srv_lunbotu3_meitu_1.png</file>
+        <file>img1/srv_lunbotu3_meitu_1_1.png</file>
+        <file>img1/srv_lunbotu21.png</file>
+        <file>img1/start.png</file>
+        <file>img1/state_info.png</file>
+        <file>img1/state_ok.png</file>
+        <file>img1/status.png</file>
+        <file>img1/xiaohui.png</file>
+        <file>img/correct.png</file>
+        <file>img/error.png</file>
+        <file>img/gantan.png</file>
+        <file>img/start.png</file>
+        <file>img/stop.png</file>
+    </qresource>
+</RCC>

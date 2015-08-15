@@ -1,0 +1,422 @@
+1408341624.5344 FORCE 3055155008 Logger.cpp:121:gSetLogFile: new log path test.out
+1408341624.7248 ERROR 3055155008 mainwindow.cpp:110:start_sulley: cannot start python
+1408341624.7476 INFO 2895117120 FuzzThread.cpp:354:run: task get phone info
+1408341629.7533 ERROR 2895117120 FuzzThread.cpp:50:phone_msg: phone connect failed
+1408341629.7537 INFO 2895117120 FuzzThread.cpp:358:run: task get bts info
+1408341643.3828 INFO 2895117120 FuzzThread.cpp:369:run: task exit
+1408341648.3854 ERROR 2895117120 FuzzThread.cpp:20:console_msg: sulley connect failed
+1408341648.3857 ERROR 2895117120 FuzzThread.cpp:395:run: Exception	std::exception
+1408341688.1817 FORCE 3054954304 Logger.cpp:121:gSetLogFile: new log path test.out
+1408341688.3836 ERROR 3054954304 mainwindow.cpp:110:start_sulley: cannot start python
+1408341688.4111 INFO 2895117120 FuzzThread.cpp:354:run: task get phone info
+1408341693.4166 ERROR 2895117120 FuzzThread.cpp:50:phone_msg: phone connect failed
+1408341693.4171 INFO 2895117120 FuzzThread.cpp:358:run: task get bts info
+1408341693.4180 INFO 2895117120 FuzzThread.cpp:494:getBtsinfo: 
+
+1408341786.2134 INFO 2895117120 FuzzThread.cpp:362:run: task set bts info
+1408341786.2169 INFO 2895117120 FuzzThread.cpp:522:setBtsinfo: BTS OK Finished the setting
+1408341849.5330 INFO 2895117120 FuzzThread.cpp:377:run: task get imsi
+1408341849.5337 INFO 2895117120 FuzzThread.cpp:545:getimsi: get imsi	460016428906023
+1408341857.3509 INFO 2895117120 FuzzThread.cpp:354:run: task get phone info
+1408341862.3565 ERROR 2895117120 FuzzThread.cpp:50:phone_msg: phone connect failed
+1408341862.3567 INFO 2895117120 FuzzThread.cpp:354:run: task get phone info
+1408341867.3624 ERROR 2895117120 FuzzThread.cpp:50:phone_msg: phone connect failed
+1408341936.2855 INFO 2895117120 FuzzThread.cpp:369:run: task exit
+1408341937.9552 FORCE 3054720832 Logger.cpp:121:gSetLogFile: new log path test.out
+1408341938.1428 ERROR 3054720832 mainwindow.cpp:110:start_sulley: cannot start python
+1408341938.1658 INFO 2895117120 FuzzThread.cpp:354:run: task get phone info
+1408341938.2360 INFO 2895117120 FuzzThread.cpp:424:getPhoneinfo: PHO INFO
+1408341938.2383 INFO 2895117120 FuzzThread.cpp:545:getimsi: get imsi	460016428906023
+1408341938.2391 INFO 2895117120 FuzzThread.cpp:358:run: task get bts info
+1408341938.2395 INFO 2895117120 FuzzThread.cpp:494:getBtsinfo: 
+
+1408341955.2956 INFO 2895117120 FuzzThread.cpp:377:run: task get imsi
+1408341955.2964 INFO 2895117120 FuzzThread.cpp:545:getimsi: get imsi	460016428906023
+1408341975.9436 INFO 2895117120 FuzzThread.cpp:381:run: task other sulley
+1408341975.9437 INFO 2895117120 FuzzThread.cpp:382:run: console IMSI 460016428906023
+1408341980.9492 ERROR 2895117120 FuzzThread.cpp:20:console_msg: sulley connect failed
+1408341980.9501 ERROR 2895117120 FuzzThread.cpp:395:run: Exception	std::exception
+1408341980.9518 INFO 2895117120 FuzzThread.cpp:381:run: task other sulley
+1408341980.9521 INFO 2895117120 FuzzThread.cpp:382:run: console sulley bit_testall=0&bit_minEdge=2&bit_maxRange=1&Lfuzz=0&str_value=&str_maxlen=64&rand_minreps=0&rand_maxreps=255&rand_maxmuns=50
+1408341985.9573 ERROR 2895117120 FuzzThread.cpp:20:console_msg: sulley connect failed
+1408341985.9592 ERROR 2895117120 FuzzThread.cpp:395:run: Exception	std::exception
+1408341985.9593 INFO 2895117120 FuzzThread.cpp:349:run: TASK FUZZ ALL
+1408341990.9648 ERROR 2895117120 FuzzThread.cpp:20:console_msg: sulley connect failed
+1408341990.9652 ERROR 2895117120 FuzzThread.cpp:395:run: Exception	std::exception
+1408342073.7055 INFO 2895117120 FuzzThread.cpp:369:run: task exit
+1408342078.7096 ERROR 2895117120 FuzzThread.cpp:20:console_msg: sulley connect failed
+1408342078.7099 ERROR 2895117120 FuzzThread.cpp:395:run: Exception	std::exception
+1408342353.2155 FORCE 3054815040 Logger.cpp:121:gSetLogFile: new log path test.out
+1408342353.4613 ERROR 3054815040 mainwindow.cpp:110:start_sulley: cannot start python
+1408342353.4902 INFO 2895117120 FuzzThread.cpp:354:run: task get phone info
+1408342354.4726 INFO 2895117120 FuzzThread.cpp:424:getPhoneinfo: PHO INFO
+1408342359.4771 INFO 2895117120 FuzzThread.cpp:545:getimsi: get imsi	PHO INFO VER:Linux version 3.0.8-gb581cac (android@localhost) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #1 SMP PREEMPT Fri Aug 30 16:00:07 CST 2013$SYS:$TEL:DeviceID(IMEI) = A0000033601505
+DevicesoftwareVersion = 0
+LineNumber = null
+NetworkCountryIso = cn
+NetworkOperator = 46023
+NetworkOperatorName = 46023
+NetworkType = 1
+PhoneType = 1
+SimCountryIso = cn
+SimOperator = 46001
+SimOperatorName = 
+SimSerialNumber = 89860313900252597681
+SimState = 5
+SubscriberId(IMSI) = 460036521099273
+VoiceMailNumber = *86
+IMSI MCC (Mobile Cuntry Code):460
+IMSI MNC (Mobile Network code):1$CPU:Processor	: ARMv7 Processor rev 0 (v7l)
+processor	: 0
+BogoMIPS	: 2989.00
+
+processor	: 1
+BogoMIPS	: 2989.00
+
+processor	: 2
+BogoMIPS	: 2989.00
+
+processor	: 3
+BogoMIPS	: 2989.00
+
+Features	: swp half thumb fastmult vfp edsp thumbee neon vfpv3 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x3
+CPU part	: 0xc09
+CPU revision	: 0
+
+Hardware	: huawei
+Revision	: 0000
+Serial		: 0000000000000000$MEM:MemTotal:        1810788 kB
+MemFree:         1089384 kB
+Buffers:           15968 kB
+Cached:           180092 kB
+SwapCached:            0 kB
+Active:           438908 kB
+Inactive:         156600 kB
+Active(anon):     399472 kB
+Inactive(anon):      656 kB
+Active(file):      39436 kB
+Inactive(file):   155944 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:       1345504 kB
+HighFree:         688524 kB
+LowTotal:         465284 kB
+LowFree:          400860 kB
+SwapTotal:        204796 kB
+SwapFree:         204796 kB
+Dirty:                 4 kB
+Writeback:            60 kB
+AnonPages:        399480 kB
+Mapped:            76932 kB
+Shmem:               712 kB
+Slab:              16556 kB
+SReclaimable:       7004 kB
+SUnreclaim:         9552 kB
+KernelStack:        8032 kB
+PageTables:        10792 kB
+NFS_Unstable:          0 kB
+Bounce:               28 kB
+WritebackTmp:          0 kB
+CommitLimit:     1110188 kB
+Committed_AS:    7141420 kB
+VmallocTotal:     516096 kB
+VmallocUsed:      228368 kB
+VmallocChunk:     233840 kB
+     1810788 kB
+MemFree:         1089384 kB
+Buffers:           15968 kB
+Cached:           180092 kB
+SwapCached:            0 kB
+Active:           438908 kB
+Inactive:         156600 kB
+Active(anon):     399472 kB
+Inactive(anon):      656 kB
+Active(file):      39436 kB
+Inactive(file):   155944 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:       1345504 kB
+HighFree:         688524 kB
+LowTotal:         465284 kB
+LowFree:          400860 kB
+SwapTotal:        204796 kB
+SwapFree:         204796 kB
+Dirty:                 4 kB
+Writeback:            60 kB
+AnonPages:        399480 kB
+Mapped:            76932 kB
+Shmem:               712 kB
+Slab:              16556 kB
+SReclaimable:       7004 kB
+SUnreclaim:         9552 kB
+KernelStack:        8032 kB
+PageTables:        10792 kB
+NFS_Unstable:          0 kB
+Bounce:               28 kB
+WritebackTmp:          0 kB
+CommitLimit:     1110188 kB
+Committed_AS:    7141420 kB
+VmallocTotal:     516096 kB
+VmallocUsed:      228368 kB
+VmallocChunk:$DIS:Filesystem             Size   Used   Free   Blksize
+/dev                   884M    64K   884M   4096
+/mnt/asec              884M     0K   884M   4096
+/mnt/obb               884M     0K   884M   4096
+/system               1008M   408M   600M   4096
+/cache                 188M     4M   184M   4096
+/data                    5G   345M     5G   4096
+/splash2                 7M     5M     2M   4096
+/cust                  157M    67M    90M   4096
+/modem/modem_image      94M    16M    78M   4096
+/modem/nvm1              7M     4M     3M   4096
+/modem/nvm2              7M     4M     3M   4096
+/data/peers            884M     0K   884M   4096
+/storage/sdcard0         5G   345M     5G   4096
+1408342359.4783 INFO 2895117120 FuzzThread.cpp:358:run: task get bts info
+1408342364.4813 INFO 2895117120 FuzzThread.cpp:369:run: task exit
+1408342430.9544 FORCE 3054610240 Logger.cpp:121:gSetLogFile: new log path test.out
+1408342431.2286 INFO 2895117120 FuzzThread.cpp:354:run: task get phone info
+1408342431.2480 INFO 2895117120 FuzzThread.cpp:424:getPhoneinfo: PHO INFO
+1408342436.2532 INFO 2895117120 FuzzThread.cpp:545:getimsi: get imsi	PHO INFO VER:Linux version 3.0.8-gb581cac (android@localhost) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #1 SMP PREEMPT Fri Aug 30 16:00:07 CST 2013$SYS:$TEL:DeviceID(IMEI) = A0000033601505
+DevicesoftwareVersion = 0
+LineNumber = null
+NetworkCountryIso = cn
+NetworkOperator = 46023
+NetworkOperatorName = 46023
+NetworkType = 1
+PhoneType = 1
+SimCountryIso = cn
+SimOperator = 46001
+SimOperatorName = 
+SimSerialNumber = 89860313900252597681
+SimState = 5
+SubscriberId(IMSI) = 460036521099273
+VoiceMailNumber = *86
+IMSI MCC (Mobile Cuntry Code):460
+IMSI MNC (Mobile Network code):1$CPU:Processor	: ARMv7 Processor rev 0 (v7l)
+processor	: 0
+BogoMIPS	: 2989.00
+
+processor	: 1
+BogoMIPS	: 2989.00
+
+processor	: 2
+BogoMIPS	: 2989.00
+
+processor	: 3
+BogoMIPS	: 2989.00
+
+Features	: swp half thumb fastmult vfp edsp thumbee neon vfpv3 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x3
+CPU part	: 0xc09
+CPU revision	: 0
+
+Hardware	: huawei
+Revision	: 0000
+Serial		: 0000000000000000$MEM:MemTotal:        1810788 kB
+MemFree:         1089384 kB
+Buffers:           15968 kB
+Cached:           180092 kB
+SwapCached:            0 kB
+Active:           438908 kB
+Inactive:         156600 kB
+Active(anon):     399472 kB
+Inactive(anon):      656 kB
+Active(file):      39436 kB
+Inactive(file):   155944 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:       1345504 kB
+HighFree:         688524 kB
+LowTotal:         465284 kB
+LowFree:          400860 kB
+SwapTotal:        204796 kB
+SwapFree:         204796 kB
+Dirty:                 4 kB
+Writeback:            60 kB
+AnonPages:        399480 kB
+Mapped:            76932 kB
+Shmem:               712 kB
+Slab:              16556 kB
+SReclaimable:       7004 kB
+SUnreclaim:         9552 kB
+KernelStack:        8032 kB
+PageTables:        10792 kB
+NFS_Unstable:          0 kB
+Bounce:               28 kB
+WritebackTmp:          0 kB
+CommitLimit:     1110188 kB
+Committed_AS:    7141420 kB
+VmallocTotal:     516096 kB
+VmallocUsed:      228368 kB
+VmallocChunk:     233840 kB
+     1810788 kB
+MemFree:         1089384 kB
+Buffers:           15968 kB
+Cached:           180092 kB
+SwapCached:            0 kB
+Active:           438908 kB
+Inactive:         156600 kB
+Active(anon):     399472 kB
+Inactive(anon):      656 kB
+Active(file):      39436 kB
+Inactive(file):   155944 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:       1345504 kB
+HighFree:         688524 kB
+LowTotal:         465284 kB
+LowFree:          400860 kB
+SwapTotal:        204796 kB
+SwapFree:         204796 kB
+Dirty:                 4 kB
+Writeback:            60 kB
+AnonPages:        399480 kB
+Mapped:            76932 kB
+Shmem:               712 kB
+Slab:              16556 kB
+SReclaimable:       7004 kB
+SUnreclaim:         9552 kB
+KernelStack:        8032 kB
+PageTables:        10792 kB
+NFS_Unstable:          0 kB
+Bounce:               28 kB
+WritebackTmp:          0 kB
+CommitLimit:     1110188 kB
+Committed_AS:    7141420 kB
+VmallocTotal:     516096 kB
+VmallocUsed:      228368 kB
+VmallocChunk:$DIS:Filesystem             Size   Used   Free   Blksize
+/dev                   884M    64K   884M   4096
+/mnt/asec              884M     0K   884M   4096
+/mnt/obb               884M     0K   884M   4096
+/system               1008M   408M   600M   4096
+/cache                 188M     4M   184M   4096
+/data                    5G   345M     5G   4096
+/splash2                 7M     5M     2M   4096
+/cust                  157M    67M    90M   4096
+/modem/modem_image      94M    16M    78M   4096
+/modem/nvm1              7M     4M     3M   4096
+/modem/nvm2              7M     4M     3M   4096
+/data/peers            884M     0K   884M   4096
+/storage/sdcard0         5G   345M     5G   4096
+1408342436.2558 INFO 2895117120 FuzzThread.cpp:358:run: task get bts info
+1408342450.8932 INFO 2895117120 FuzzThread.cpp:358:run: task get bts info
+1408342490.0211 INFO 2895117120 FuzzThread.cpp:358:run: task get bts info
+1408342495.0254 INFO 2895117120 FuzzThread.cpp:358:run: task get bts info
+1408342780.0341 FORCE 3054909248 Logger.cpp:121:gSetLogFile: new log path test.out
+1408342781.2671 INFO 2905602880 FuzzThread.cpp:354:run: task get phone info
+1408342781.4645 INFO 2905602880 FuzzThread.cpp:424:getPhoneinfo: PHO INFO
+1408342781.4664 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	
+1408342781.4670 INFO 2905602880 FuzzThread.cpp:358:run: task get bts info
+1408342781.4676 INFO 2905602880 FuzzThread.cpp:494:getBtsinfo: 
+
+1408342792.3967 INFO 2905602880 FuzzThread.cpp:377:run: task get imsi
+1408342792.3974 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	
+1408342798.2131 INFO 2905602880 FuzzThread.cpp:377:run: task get imsi
+1408342798.2137 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	
+1408342802.3201 INFO 2905602880 FuzzThread.cpp:377:run: task get imsi
+1408342802.3207 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	
+1408342811.8373 INFO 2905602880 FuzzThread.cpp:377:run: task get imsi
+1408342811.8379 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	
+1408342821.8685 INFO 2905602880 FuzzThread.cpp:362:run: task set bts info
+1408342821.8717 INFO 2905602880 FuzzThread.cpp:522:setBtsinfo: BTS OK Finished the setting
+1408342831.9049 INFO 2905602880 FuzzThread.cpp:377:run: task get imsi
+1408342831.9055 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	
+1408342842.1267 INFO 2905602880 FuzzThread.cpp:377:run: task get imsi
+1408342842.1272 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	
+1408342843.4308 INFO 2905602880 FuzzThread.cpp:377:run: task get imsi
+1408342843.4314 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	
+1408342848.0475 INFO 2905602880 FuzzThread.cpp:377:run: task get imsi
+1408342848.0482 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	460016428906023
+1408342851.4558 INFO 2905602880 FuzzThread.cpp:381:run: task other sulley
+1408342851.4560 INFO 2905602880 FuzzThread.cpp:382:run: console IMSI 460016428906023
+1408342851.4586 INFO 2905602880 FuzzThread.cpp:384:run: CONSOLE OK
+1408342851.4589 INFO 2905602880 FuzzThread.cpp:381:run: task other sulley
+1408342851.4589 INFO 2905602880 FuzzThread.cpp:382:run: console sulley bit_testall=0&bit_minEdge=2&bit_maxRange=1&Lfuzz=0&str_value=&str_maxlen=64&rand_minreps=0&rand_maxreps=255&rand_maxmuns=50
+1408342851.5846 INFO 2905602880 FuzzThread.cpp:384:run: CONSOLE OK 
+1408342851.5848 INFO 2905602880 FuzzThread.cpp:349:run: TASK FUZZ ALL
+1408342852.9700 INFO 2905602880 FuzzThread.cpp:81:fuzzAll: CONSOLE OK 459
+1408342852.9755 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 0 459 
+1408342858.9228 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 1 459 
+1408342864.5708 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 2 459 
+1408342870.2227 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 3 459 
+1408342875.8708 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 4 459 
+1408342881.5188 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 5 459 
+1408342887.1709 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 6 459 
+1408342892.5828 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 7 459 
+1408342898.4668 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 8 459 
+1408342904.1188 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 9 459 
+1408342909.5290 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 10 459 
+1408342915.4114 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 11 459 
+1408342921.0613 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 12 459 
+1408342926.8147 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 13 459 
+1408342932.8347 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 14 459 
+1408342938.4871 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 15 459 
+1408342944.1307 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 16 459 
+1408342951.4432 INFO 2905602880 FuzzThread.cpp:354:run: task get phone info
+1408342951.9609 INFO 2905602880 FuzzThread.cpp:424:getPhoneinfo: PHO INFO
+1408342951.9622 INFO 2905602880 FuzzThread.cpp:545:getimsi: get imsi	460016428906023
+1408342955.7744 INFO 2905602880 FuzzThread.cpp:381:run: task other sulley
+1408342955.7746 INFO 2905602880 FuzzThread.cpp:382:run: console IMSI 460016428906023
+1408342955.7758 INFO 2905602880 FuzzThread.cpp:384:run: FUZZ WR target wrong
+1408342955.7760 INFO 2905602880 FuzzThread.cpp:381:run: task other sulley
+1408342955.7761 INFO 2905602880 FuzzThread.cpp:382:run: console sulley bit_testall=0&bit_minEdge=2&bit_maxRange=1&Lfuzz=0&str_value=&str_maxlen=64&rand_minreps=0&rand_maxreps=255&rand_maxmuns=50
+1408342955.8420 INFO 2905602880 FuzzThread.cpp:384:run: CONSOLE OK 
+1408342955.8422 INFO 2905602880 FuzzThread.cpp:349:run: TASK FUZZ ALL
+1408342957.4428 INFO 2905602880 FuzzThread.cpp:81:fuzzAll: CONSOLE OK 459
+1408342957.4447 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 0 459 
+1408342965.2659 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 1 459 
+1408342972.1347 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 2 459 
+1408342979.3948 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 3 459 
+1408342986.1107 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 4 459 
+1408342992.9338 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 5 459 
+1408343002.7385 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 6 459 
+1408343009.5906 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 7 459 
+1408343016.2556 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 8 459 
+1408343023.0547 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 9 459 
+1408343030.1814 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 10 459 
+1408343036.9607 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 11 459 
+1408343043.7689 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 12 459 
+1408343051.0523 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 13 459 
+1408343058.1292 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 14 459 
+1408343065.2829 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 15 459 
+1408343072.5245 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 16 459 
+1408343079.3152 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 17 459 
+1408343088.4301 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 18 459 
+1408343095.3388 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 19 459 
+1408343102.1436 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 20 459 
+1408343108.7306 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 21 459 
+1408343115.3227 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 22 459 
+1408343121.9286 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 23 459 
+1408343128.7444 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 24 459 
+1408343135.5741 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 25 459 
+1408343142.4131 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 26 459 
+1408343151.8291 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 27 459 
+1408343159.6958 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 28 459 
+1408343166.3669 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 29 459 
+1408343175.9575 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 30 459 
+1408343182.8866 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 31 459 
+1408343189.9426 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 32 459 
+1408343197.0010 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 33 459 
+1408343204.0648 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 34 459 
+1408343210.8932 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 35 459 
+1408343217.7334 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 36 459 
+1408343227.9661 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 37 459 
+1408343234.6930 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 38 459 
+1408343241.7348 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 39 459 
+1408343250.3416 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 40 459 
+1408343259.3908 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 41 459 
+1408343266.5294 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 42 459 
+1408343273.0533 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 43 459 
+1408343279.6234 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 44 459 
+1408343286.4547 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 45 459 
+1408343293.5323 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 46 459 
+1408343301.4699 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 47 459 
+1408343308.2204 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 48 459 
+1408343314.9339 INFO 2905602880 FuzzThread.cpp:155:fuzz: FUZZ OK 49 459 

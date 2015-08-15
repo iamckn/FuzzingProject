@@ -1,0 +1,22 @@
+##=====settings===========
+bitfield_minEdge 2
+bitfield_minEdge 4
+bitfield_minEdge 8
+bitfield_maxRange 10
+string_maxlen 64
+string_maxlen 128
+string_maxlen 256
+random_minreps 0
+random_maxreps 255
+random_maxmuns 100
+
+phoneIP 121.248.51.162
+phonePort 46002
+btsIP 121.248.55.28
+btsPort 6001
+
+
+IMSI 460001883544688
+IMSI 460011580351887
+IMSI 460036521099273
+IMSI 460016428906023

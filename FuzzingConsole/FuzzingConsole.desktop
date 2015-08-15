@@ -1,0 +1,9 @@
+[Desktop Entry]
+Exec=/home/gsm/FuzzingConsole/Start.sh
+Name= 移动终端Fuzz系統
+GenericName=FuzzingBTS
+
+Icon=/home/gsm/FuzzingConsole/img1/logo1.png
+Terminal=false
+Type=Application
+

@@ -1,0 +1,152 @@
+Mon Aug 11 19:39:38 2014:	=========================<<system start>>======================
+Mon Aug 11 19:40:35 2014:	console_loop:	ok
+Mon Aug 11 19:40:35 2014:	console_loop:	WRcommand error
+Mon Aug 11 19:40:35 2014:	=========================<<system start>>======================
+Mon Aug 11 19:41:27 2014:	console_loop:	IMSI:1234
+Mon Aug 11 19:41:27 2014:	console_loop:	WR imsi length error
+Mon Aug 11 19:41:38 2014:	console_loop:	sulley
+Mon Aug 11 19:42:05 2014:	console_loop:	fuzz pagingRequestType1
+Mon Aug 11 19:42:05 2014:	IMSI:	460011580351887
+Mon Aug 11 19:42:05 2014:	generate message:	pagingRequestType1
+Mon Aug 11 19:42:09 2014:	number of messages:	3208
+Mon Aug 11 19:42:19 2014:	fuzz loop:	send
+Mon Aug 11 19:42:19 2014:	
+ 
+0000: 00 ff ff 00 00 00 00 00 34 36 30 30 31 31 35 38  ........46001158
+0010: 30 33 35 31 38 38 37 00 06 00 00 00 21 00 00 00  0351887.....!...
+0020: 07 00 00 00 01 00 00 00 09 00 00 00 08 49 06 10  .............I..
+0030: 51 08 53 81 78                                   Q.S.x
+
+Mon Aug 11 19:42:56 2014:	fuzz loop:	send
+Mon Aug 11 19:42:56 2014:	
+ 
+0000: 00 ff ff 00 00 00 00 00 34 36 30 30 31 31 35 38  ........46001158
+0010: 30 33 35 31 38 38 37 00 06 00 00 00 21 00 00 00  0351887.....!...
+0020: 07 00 00 00 00 00 00 00 0a 00 00 00 08 49 06 10  .............I..
+0030: 51 08 53 81 78 0f                                Q.S.x.
+
+Mon Aug 11 19:43:15 2014:	fuzz loop:	abort
+Mon Aug 11 19:43:15 2014:	abort:	pagingRequestType1
+Mon Aug 11 19:43:32 2014:	console_loop:	imsi
+Mon Aug 11 19:43:32 2014:	console_loop:	WRcommand error
+Mon Aug 11 19:43:32 2014:	=========================<<system start>>======================
+Mon Aug 11 19:43:46 2014:	console_loop:	exit
+Mon Aug 11 19:43:46 2014:	=========================<<systemshutdown>>=======================
+Mon Aug 11 19:44:33 2014:	=========================<<system start>>======================
+Mon Aug 11 19:44:41 2014:	console_loop:	er
+Mon Aug 11 19:44:41 2014:	console_loop:	WRcommand error
+Mon Aug 11 19:44:41 2014:	=========================<<system start>>======================
+Mon Aug 11 19:45:03 2014:	=========================<<system start>>======================
+Mon Aug 11 19:45:07 2014:	console_loop:	er
+Mon Aug 11 19:45:07 2014:	console_loop:	WRcommand error
+Mon Aug 11 19:45:15 2014:	console_loop:	sulley
+Mon Aug 11 19:45:39 2014:	console_loop:	fuzz SMS
+Mon Aug 11 19:45:39 2014:	IMSI:	460011580351887
+Mon Aug 11 19:45:39 2014:	generate message:	SMS
+Mon Aug 11 19:45:39 2014:	number of messages:	6834
+Mon Aug 11 19:45:49 2014:	fuzz loop:	send
+Mon Aug 11 19:45:49 2014:	
+ 
+0000: 00 ff ff 00 01 00 00 00 34 36 30 30 31 31 35 38  ........46001158
+0010: 30 33 35 31 38 38 37 00 00 00 00 00 00 00 00 00  0351887.........
+0020: 00 00 00 00 00 00 00 00 1d 00 00 00 41 20 94 71  ............A .q
+0030: 96 46 66 56 f8 04 14 41 61 30 17 66 21 64 10 68  .FfV...Aa0.f!d.h
+0040: 65 6c 6c 6f 68 65 6c 6c 6f                       ellohello
+
+Mon Aug 11 19:47:12 2014:	=========================<<system start>>======================
+Mon Aug 11 19:47:21 2014:	console_loop:	fuzz SMS
+Mon Aug 11 19:47:21 2014:	IMSI:	460011580351887
+Mon Aug 11 19:47:21 2014:	generate message:	SMS
+Mon Aug 11 19:47:22 2014:	number of messages:	6834
+Mon Aug 11 19:47:44 2014:	fuzz loop:	fuzz
+Mon Aug 11 19:47:44 2014:	msg loop:	BTS WR fuzz_loop unrecognized commandfuzz
+Mon Aug 11 19:48:37 2014:	=========================<<system start>>======================
+Mon Aug 11 19:48:43 2014:	console_loop:	FUZZ
+Mon Aug 11 19:48:43 2014:	console_loop:	WRcommand error
+Mon Aug 11 19:48:48 2014:	console_loop:	fuzz
+Mon Aug 11 19:48:48 2014:	console_loop:	WR no message
+Mon Aug 11 19:49:05 2014:	console_loop:	fuzz SMS
+Mon Aug 11 19:49:05 2014:	IMSI:	460011580351887
+Mon Aug 11 19:49:05 2014:	generate message:	SMS
+Mon Aug 11 19:49:05 2014:	number of messages:	6834
+Mon Aug 11 19:49:12 2014:	fuzz loop:	send
+Mon Aug 11 19:49:12 2014:	
+ 
+0000: 00 ff ff 00 01 00 00 00 34 36 30 30 31 31 35 38  ........46001158
+0010: 30 33 35 31 38 38 37 00 00 00 00 00 00 00 00 00  0351887.........
+0020: 00 00 00 00 00 00 00 00 1d 00 00 00 41 20 94 71  ............A .q
+0030: 96 46 66 56 f8 04 14 41 61 30 17 66 21 64 10 68  .FfV...Aa0.f!d.h
+0040: 65 6c 6c 6f 68 65 6c 6c 6f                       ellohello
+
+Mon Aug 11 19:49:29 2014:	fuzz loop:	abort
+Mon Aug 11 19:49:29 2014:	abort:	SMS
+Mon Aug 11 19:50:37 2014:	=========================<<system start>>======================
+Mon Aug 11 19:50:42 2014:	console_loop:	FUZZ
+Mon Aug 11 19:50:42 2014:	console_loop:	WRcommand error
+Mon Aug 11 19:50:50 2014:	console_loop:	fuzz
+Mon Aug 11 19:50:50 2014:	console_loop:	WR no message
+Mon Aug 11 19:50:56 2014:	console_loop:	fuzz SMS
+Mon Aug 11 19:50:56 2014:	IMSI:	460011580351887
+Mon Aug 11 19:50:56 2014:	generate message:	SMS
+Mon Aug 11 19:50:57 2014:	number of messages:	6834
+Mon Aug 11 19:51:03 2014:	fuzz loop:	send
+Mon Aug 11 19:51:03 2014:	
+ 
+0000: 00 ff ff 00 01 00 00 00 34 36 30 30 31 31 35 38  ........46001158
+0010: 30 33 35 31 38 38 37 00 00 00 00 00 00 00 00 00  0351887.........
+0020: 00 00 00 00 00 00 00 00 1d 00 00 00 41 20 94 71  ............A .q
+0030: 96 46 66 56 f8 04 14 41 61 30 17 66 21 64 10 68  .FfV...Aa0.f!d.h
+0040: 65 6c 6c 6f 68 65 6c 6c 6f                       ellohello
+
+Mon Aug 11 20:20:51 2014:	=========================<<system start>>======================
+Mon Aug 11 20:20:57 2014:	console
+Mon Aug 11 20:20:57 2014:	=========================<<system start>>======================
+Mon Aug 11 20:21:55 2014:	=========================<<system start>>======================
+Mon Aug 11 20:22:03 2014:	console
+Mon Aug 11 20:22:03 2014:	list index out of range
+Mon Aug 11 20:22:03 2014:	=========================<<system start>>======================
+Mon Aug 11 20:22:26 2014:	console cmd
+Mon Aug 11 20:22:26 2014:	CONSOLE WR command noexist
+Mon Aug 11 20:22:41 2014:	console IMSI 1234
+Mon Aug 11 20:22:41 2014:	CONSOLE WR imsi length error
+Mon Aug 11 20:22:51 2014:	fuzz fe se
+Mon Aug 11 20:22:51 2014:	CONSOLE WR target error
+Mon Aug 11 20:23:40 2014:	console fuzz SMS
+Mon Aug 11 20:23:40 2014:	FUZZ IMSI:	460011580351887
+Mon Aug 11 20:23:40 2014:	generate message:	SMS
+Mon Aug 11 20:23:41 2014:	FUZZ number of messages:	6834
+Mon Aug 11 20:24:24 2014:	console fuzz SMS
+Mon Aug 11 20:25:31 2014:	console fuzz SMS
+Mon Aug 11 20:25:31 2014:	FUZZ IMSI:	460011580351887
+Mon Aug 11 20:25:31 2014:	generate message:	SMS
+Mon Aug 11 20:25:32 2014:	FUZZ number of messages:	6834
+Mon Aug 11 20:25:41 2014:	fuzz send
+Mon Aug 11 20:25:41 2014:	
+ 
+0000: 00 ff ff 00 01 00 00 00 34 36 30 30 31 31 35 38  ........46001158
+0010: 30 33 35 31 38 38 37 00 00 00 00 00 00 00 00 00  0351887.........
+0020: 00 00 00 00 00 00 00 00 1d 00 00 00 41 20 94 71  ............A .q
+0030: 96 46 66 56 f8 04 14 41 61 30 17 66 21 64 10 68  .FfV...Aa0.f!d.h
+0040: 65 6c 6c 6f 68 65 6c 6c 6f                       ellohello
+
+Mon Aug 11 20:25:49 2014:	fuzz send
+Mon Aug 11 20:25:49 2014:	
+ 
+0000: 00 ff ff 00 01 00 00 00 34 36 30 30 31 31 35 38  ........46001158
+0010: 30 33 35 31 38 38 37 00 00 00 00 00 00 00 00 00  0351887.........
+0020: 00 00 00 00 00 00 00 00 1d 00 00 00 41 21 94 71  ............A!.q
+0030: 96 46 66 56 f8 04 14 41 61 30 17 66 21 64 10 68  .FfV...Aa0.f!d.h
+0040: 65 6c 6c 6f 68 65 6c 6c 6f                       ellohello
+
+Mon Aug 11 20:26:07 2014:	fuzz abort
+Mon Aug 11 20:26:07 2014:	abort:	SMS
+Mon Aug 11 20:26:17 2014:	console exist
+Mon Aug 11 20:26:17 2014:	CONSOLE WR command noexist
+Mon Aug 11 20:26:29 2014:	console exit
+Mon Aug 11 20:26:29 2014:	CONSOLE WR command noexist
+Mon Aug 11 20:27:02 2014:	console quit
+Mon Aug 11 20:27:02 2014:	=========================<<systemshutdown>>=======================
+Mon Aug 11 23:22:13 2014:	=========================<<system start>>======================
+Tue Aug 12 14:30:03 2014:	=========================<<system start>>======================
+Tue Aug 12 15:52:43 2014:	=========================<<system start>>======================
+Tue Aug 12 15:57:03 2014:	=========================<<system start>>======================
